@@ -1,8 +1,8 @@
 {
-  "name": "MEGALODON-MD",
+  "name": "𝐊𝐔𝐑𝐎𝐘𝐀-MD",
   "description": "Javascript WhatsApp bot made ʙʏ ᴅʏʙʏ ᴛᴇᴄʜ",
   "logo": "https://files.catbox.moe/rful77.jpg",
-  "keywords": ["MEGALODON-MD"],
+  "keywords": ["𝐊𝐔𝐑𝐎𝐘𝐀-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -10,25 +10,25 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "𝐊𝐔𝐑𝐎𝐘𝐀~MD~2Q5yxKqY#Pvljbmi5XJFwppMVmQ_q3L2yAytFuQGcqGL1BaJ92YA"
     },  
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "MEGALODON-MD"
+      "value": "𝐃𝐀𝐑𝐊•𝐓𝐀𝐑𝐐•𝐊𝐔𝐑𝐎𝐘𝐀"
     }, 
       
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
-      "value": "."
+      "value": "🍷"
     },
     
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
+      "value": "private"
       
     },
     
@@ -78,7 +78,7 @@
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
+      "required":no,
       "value": "*SEEN YOUR STATUS BY MEGALODON-MD 🖤*"
    
      }, 
@@ -86,20 +86,20 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ᴅʏʙʏ ᴛᴇᴄʜ"
+      "value": "𝐊𝐔𝐑𝐎𝐘𝐀-MD"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "509xxxxxx"
+      "value": "213782715965"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "MEGALODON-MD"
+      "value": "𝐊𝐔𝐑𝐎𝐘𝐀-MD"
 
       }, 
 
@@ -113,20 +113,20 @@
      "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "false"
+      "value": "true"
       
     },
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
    "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "MENU_IMAGE_URL": {
@@ -144,7 +144,7 @@
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "AUTO_RECORDING": {
@@ -162,32 +162,32 @@
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
       "required": false,
-      "value": "false"
+      "value": "true"
       
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+      "value": "🍷.🧸.💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     }, 
     
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat",
-      "required": false,
+      "required": true,
       "value": "log"
     }, 
 
     "ADMIN_EVENTS": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
     "WELCOME": {
